@@ -11,6 +11,16 @@ public class Main {
         int b = 31;
         arLyginisArNelyginis(a);
         arLyginisArNelyginis(b);
+        //3uzd
+        int c = 12;
+        int d = 5;
+        System.out.println(palyginti(c, d));
+        int e = 7;
+        int f = 7;
+        System.out.println(palyginti(e, f));
+        int g = 3;
+        int h = 8;
+        System.out.println(palyginti(g, h));
     }
     public static boolean arNeigaiamasArTeigiamas(int x) {
         if (x < 0) return true;
@@ -24,6 +34,15 @@ public class Main {
         }
         else {
             System.out.println("Nelyginis");
+        }
+    }
+    public static byte palyginti (int c, int d) {
+        if (c > d){
+            return -1;
+        } else if (c == d) {
+            return 0;
+        } else {
+            return 1;
         }
     }
 }
